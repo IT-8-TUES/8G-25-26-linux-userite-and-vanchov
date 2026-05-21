@@ -1,0 +1,14 @@
+#nav1half{
+    display: flex;
+    justify-content: left;
+}
+
+#nav2half{
+    display: flex;
+    align-self: flex-end;
+}
+
+#main-text{
+    display: flex;
+    justify-content: center;
+}
