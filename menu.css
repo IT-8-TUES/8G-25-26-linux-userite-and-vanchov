@@ -1,3 +1,48 @@
 body {
-  background-color: #b62626
+
+
+
+
+  background-color: #b62626;
+  margin: 0;
+  padding: 0;
 }
+
+.line {
+  width: 60%;
+  height: 0.1rem;
+  background-color: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100rem;
+    text-align: center;
+}
+
+.type{
+    margin-bottom: 3rem;
+}
+
+.type_1{
+  margin-bottom: 0.5rem;
+  margin-top: 5rem;
+}
+
+.after {
+    margin-left: 16rem;
+    margin-top: -2.2rem;
+    margin-bottom: 3rem;
+   
+}
+.ingr_1{
+  margin-bottom: 2rem;
+}
+
+.dish{
+  margin-bottom: 0.2rem;
+}
+>>>>>>> c994d24 (secound upload)
