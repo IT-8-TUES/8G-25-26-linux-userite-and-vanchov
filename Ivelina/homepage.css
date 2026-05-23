@@ -1,14 +1,30 @@
-#nav1half{
-    display: flex;
-    justify-content: left;
+a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-size: 150%;
 }
 
-#nav2half{
+.navigation_bar{
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #b62626;
     display: flex;
-    align-self: flex-end;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-block:;
 }
 
 #main-text{
     display: flex;
     justify-content: center;
 }
+
+#main-image{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
