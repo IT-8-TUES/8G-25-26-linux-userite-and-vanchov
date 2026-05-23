@@ -1,0 +1,12 @@
+body {
+    background-color: #b62626;
+}
+.container {
+    text-align: center;
+}
+/* "Hey browser, find the container class, then style the images inside it." */
+.container img {
+    width: 30%;
+    margin: 1%;
+    border-radius: 12px;
+}
