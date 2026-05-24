@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visacho - menu></title>
+        <link rel="stylesheet" type="text/css" href="menu.css">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <script src="menu.js"></script>
+        <style>
+h1,h2,h3{
+  font-family: "Lora", serif;
+}
+</style>
+    </head>
+    <body>
+        <div class="menu">
+            <h1 class="title">Visacho menu</h1>
+
+          <h2 class="type_1">Salad<h2>
+          <h3 class="dish">Insalata di Burrata e Pomodorini Confit</h3>     
+          <p class="ingr_1">Creamy burrata is served with slow-roasted cherry tomatoes,<br>
+               fresh basil leaves, a drizzle of extra virgin olive oil and aged balsamic glaze,<br>
+               finished with sea salt flakes, cracked black pepper, and toasted pine nuts, accompanied by grilled sourdough crisps.</p>
+               <p class="sss"><span id="out_1">0</span>sss</p>
+          <div class="dd">
+               <button class="b" onclick="add_1()">+</button>
+               <button class="b" onclick="sub_1()">-</button>
+          </div>
+          <h3 class="dish">Insalata di Rucola con Parmigiano e Prosciutto</h3>
+          <p class="ingr">Fresh arugula is tossed with extra virgin olive oil and lemon juice,<br>
+                 topped with thin slices of Prosciutto di Parma and shavings of Parmigiano Reggiano,<br>
+                  finished with cracked black pepper, sea salt flakes, roasted walnuts, and a drizzle of aged balsamic vinegar.</p>
+               <p class="sss"><span id="out_2">0</span>sss</p>
+          <div class="dd">
+               <button class="b" onclick="add_2()">+</button>
+               <button class="b" onclick="sub_2()">-</button>
+          </div>
+          <div class="line"></div>
+
+          <h2 class="type">Starters</h2>
+          <h3 class="dish">Carpaccio di Gamberi Rossi</h3>
+          <p class="ingr_1">Hand-sliced red prawns are delicately dressed with Sicilian extra virgin olive oil,<br>
+                 fresh lime zest, sea salt flakes, and pink peppercorns, served with microgreens and a touch of lemon foam.</p>
+               <p class="sss"><span id="out_3">0</span>sss</p>  
+          <div class="dd">
+               <button class="b" onclick="add_3()">+</button>
+               <button class="b" onclick="sub_3()">-</button>
+          </div>
+          <h3 class="dish">Tartar di Tonno con Avocado</h3>
+          <p class="ingr">Fresh bluefin tuna tartare is layered with creamy avocado, extra virgin olive oil,<br>
+                 citrus reduction, chives, and crunchy fennel, finished with Maldon sea salt and a hint of chili oil.</p>\
+               <p class="sss"><span id="out_4">0</span>sss</p>  
+          <div class="dd">
+               <button class="b" onclick="add_4()">+</button>
+               <button class="b" onclick="sub_4()">-</button>
+          </div>
+          <div class="line"></div>
+
+          <h2 class="type">Main Courses</h2>
+          <h3 class="dish">Tagliatelle al Tartufo Nero</h3>
+          <p class="ingr_1">Fresh handmade tagliatelle are tossed in a silky butter emulsion<br>
+                 with black truffle shavings, Parmigiano Reggiano, and a touch of aged white wine reduction.</p>
+               <p class="sss"><span id="out_5">0</span>sss</p>  
+          <div class="dd">
+               <button class="b" onclick="add_5()">+</button>
+               <button class="b" onclick="sub_5()">-</button>
+          </div>
+          <h3 class="dish">Filetto di Manzo al Barolo</h3>
+          <p class="ingr">Prime beef fillet is pan-seared and slow-finished in a<br>
+                 rich Barolo wine reduction, served with truffle mashed potatoes, roasted baby vegetables, and rosemary jus.</p>
+                 <p class="sss"><span id="out_6">0</span>sss</p>
+          <div class="dd">
+               <button class="b" onclick="add_6()">+</button>
+               <button class="b" onclick="sub_6()">-</button>
+          </div>
+          <div class="line"></div>
+
+          <h2 class="type">Desserts</h2>
+          <h3 class="dish">Fondente al Cioccolato con Cuore Caldo</h3>
+          <p class="ingr_1">Warm dark chocolate fondant with a molten center,<br>
+                 served with vanilla bean gelato, raspberry coulis, and cocoa crumble.</p>
+               <p class="sss"><span id="out_7">0</span>sss</p>  
+          <div class="dd">
+               <button class="b" onclick="add_7()">+</button>
+               <button class="b" onclick="sub_7()">-</button>
+          </div>
+          <h3 class="dish">Torta al Limone di Amalfi</h3>
+          <p class="ingr">A delicate Amalfi lemon tart with buttery pastry, lemon cream filling,<br>
+                 candied zest, and a light dusting of powdered sugar, served with basil-infused mascarpone cream.</p>
+               <p class="sss"><span id="out_8">0</span>sss</p>  
+          <div class="dd">
+               <button class="b" onclick="add_8()">+</button>
+               <button class="b" onclick="sub_8()">-</button>
+          </div>
+          <div class="line"></div>
+        </div>
+        <p class="after">Perfection since 1984 </p>
+         <p class="check">BILL: <span id="bill">0</span>.00$</p>
+    </body>
+</html>
