@@ -1,8 +1,4 @@
 body {
-
-
-
-
   background-color: #b62626;
   margin: 0;
   padding: 0;
@@ -38,11 +34,36 @@ body {
     margin-bottom: 3rem;
    
 }
-.ingr_1{
-  margin-bottom: 2rem;
-}
 
 .dish{
   margin-bottom: 0.2rem;
 }
+
+.check{
+  margin-left: 53rem;
+    margin-top: -4.4rem;
+    margin-bottom: 3rem;
+    font-weight:bolder;
+    font-size: 1.5rem;
+}
+
+.b{
+ display: flex;
+ align-items: center;
+  justify-content: space-between;
+  font-weight:bolder;
+}
+
+.dd {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+   
+}
+.title{
+  margin-bottom: -2rem;
+  margin-top: 3rem;
+}
+
 
