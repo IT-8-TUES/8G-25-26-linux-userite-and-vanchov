@@ -52,6 +52,7 @@ body {
  align-items: center;
   justify-content: space-between;
   font-weight:bolder;
+  margin-top: 1rem;
 }
 
 .dd {
@@ -66,4 +67,14 @@ body {
   margin-top: 3rem;
 }
 
+.box{
+  width: 2rem;
+  background-color: white;
+  border: 1px solid;
+  height: 0.9rem;
+}
 
+.sss{
+  margin-top: -0.1rem;
+  margin-bottom: -0.1rem;
+}
