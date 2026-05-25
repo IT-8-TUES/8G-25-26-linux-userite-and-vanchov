@@ -1,7 +1,6 @@
 body {
     background-color: #b62626;
 }
-<<<<<<< HEAD
 h1 {
     text-align: center;
 }
@@ -22,14 +21,4 @@ h1 {
 .boxche img {
     width: 100%;        
     border-radius: 8rem;    
-=======
-.container {
-    text-align: center;
-}
-/* "Hey browser, find the container class, then style the images inside it." */
-.container img {
-    width: 30%;
-    margin: 1%;
-    border-radius: 12px;
->>>>>>> 9ab465560e4cceb3bc935ebf553a9172daa5397a
 }
