@@ -1,19 +1,65 @@
-a{
+/* CSS-a za header (za celiq otbor da se izpolzva) */
+.footer{
+    display: flex;
+    background-color: #7B002C; 
+    margin-top: auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 0rem;
+
+}
+
+.reach_out{
+    display: flex;
+    margin-left: auto;
+    margin-right: 5rem;
+    color: #ffff;
+    font-weight: bold;
+}
+
+#map{
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: flex-start;
+    margin-left: 5rem;
     color: #ffff;
     text-decoration: none;
-    font-family: "Lora", serif;
-    font-weight: bold;
     font-size: 150%;
 }
 
 .navigation_bar{
     justify-content: center;
     margin-top: 0px;
-    background-color: #b62626;
+    background-color: #7B002C;
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
-    padding-block:;
+    padding-bottom: 2rem; 
+    padding-top: 2rem;
+    
+}
+
+#logo_img{
+    display: flex;
+    max-width: 10%;
+    height: auto;
+    justify-self: center;
+
+}
+
+.navigation_button{
+    color: #ffff;
+    text-decoration: none;
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* CSS-a za na Ivelina homepage-a*/
+body{
+    background-color: antiquewhite;
 }
 
 #main-text{
@@ -26,5 +72,6 @@ a{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1%;
     }
 
