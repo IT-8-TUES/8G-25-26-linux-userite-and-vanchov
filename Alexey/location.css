@@ -1,0 +1,47 @@
+body{
+    
+}
+
+.main{
+    margin-bottom: 5rem;
+    width: 130rem;
+    height: 13rem;
+    display: flex;
+    background: white;
+    border: 0.2rem solid black;
+    margin-left: 5rem;
+    transition: background-color 0.3s;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+.img{
+width: 35rem;
+height: 13rem;
+}
+
+.text_s{
+
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.img_dev{
+    width: 35rem;
+}
+
+.line{
+    width: 0.2rem;
+    height: 13rem;
+    background-color: black;
+}
+
+.main:hover{
+    background-color: #d3d3d3;
+    box-shadow: 0 0.35rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
