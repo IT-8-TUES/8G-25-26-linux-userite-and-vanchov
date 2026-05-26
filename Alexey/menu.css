@@ -1,5 +1,4 @@
 body {
-  background-color: #b62626;
   margin: 0;
   padding: 0;
 }
@@ -11,16 +10,18 @@ body {
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100rem;
-    text-align: center;
+  background-color: #b62626;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100rem;
+  text-align: center;
+  width: 68rem;
 }
 
 .type{
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .type_1{
@@ -40,7 +41,7 @@ body {
 }
 
 .check{
-  margin-left: 53rem;
+  margin-left: 81rem;
     margin-top: -4.4rem;
     margin-bottom: 3rem;
     font-weight:bolder;
@@ -77,4 +78,15 @@ body {
 .sss{
   margin-top: -0.1rem;
   margin-bottom: -0.1rem;
+}
+
+.container {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sigma{
+  margin-left: -48rem;
 }
