@@ -1,22 +1,55 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JOBlistings.js" defer></script>
+
     <link rel="stylesheet" href="JOBlistings.css">
+    <title>Job Listings</title>
 </head>
+
 <body> 
+
     <h1>Job Listings</h1>
-<div class="boxche2">
-<img src="ad29b822-1ce4-439d-b573-8c7d0675e06a.png" alt="The whole group">
-<p>If you want to become a part of the family and meet the faces of Visacho,
-<br>
- then you're in luck! We are recruiting new members for the restaurant.
- We have many positions for different talents.
- <br>
- <a href="https://www.alamy.com/stock-photo-funny-italian-cook-with-pasta-and-wine-59181515.html">Learn more</a>
-</p>
+
+    <div class="boxche2">
+        <img src="ad29b822-1ce4-439d-b573-8c7d0675e06a.png" alt="The whole group">
+
+        <p>
+            If you want to become a part of the family and meet the faces of Visacho,
+            <br><br>
+            then you're in luck! We are recruiting new members for the restaurant.
+            We have many positions for different talents.
+            <br><br>
+
+            <a href="https://www.alamy.com/stock-photo-funny-italian-cook-with-pasta-and-wine-59181515.html">
+                Learn more
+            </a>
+        </p>
 </div>
 <div class="mqstozajava">
-<p></p>
- </div>
+<h2>Apply for a Job</h2>
+<form id="jobForm">
+<label for="fullName">Full Name:</label>
+<input type="text" id="fullName" required>
+<label for="email">Email:</label>
+<input type="email" id="email" required>
+<label for="phoneNumber">Phone Number:</label>
+<input type="tel" id="phoneNumber" required>
+<label for="jobOption">Choose a Job:</label>
+<select id="jobOption" required>
+<option value="">-- Select a Job --</option>
+ <option value="Chef">Chef</option>
+<option value="Waiter">Waiter</option>
+ <option value="Manager">Manager</option>
+</select>
+<button type="submit">Submit Application</button>
+ </form>
+ <div id="formResult"></div>
+</div>
+</body>
+</html>
 </body>
 </html>
