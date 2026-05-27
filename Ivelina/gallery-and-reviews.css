@@ -1,0 +1,32 @@
+.carousel_box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.prev{
+    justify-self: start;
+}
+
+.next{
+    justify-self: end;
+}
+.carousel_slide img {
+    width: 25%;
+    height: auto;
+}
+
+.carousel_slide{
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    font-size: large;
+    padding: 10px;
+    user-select: none;
+}
+
+.buttons{
+ margin-left: 14rem;
+}

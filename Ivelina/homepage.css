@@ -1,4 +1,4 @@
-/* CSS-a za header (za celiq otbor da se izpolzva) */
+/* CSS-a за header (за целия отбор) */
 .footer{
     display: flex;
     background-color: #7B002C; 
@@ -57,7 +57,7 @@
     margin-bottom: auto;
 }
 
-/* CSS-a za na Ivelina homepage-a*/
+/* CSS-a за на Ивелина homepage-a*/
 body{
     background-color: antiquewhite;
 }
