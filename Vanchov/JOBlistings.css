@@ -1,5 +1,5 @@
 body {
-    background-color: #b62626;
+    background-color:#7B002C;
     margin: 0;
     padding: 10px;
     font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@ h1 {
     display: inline-block; 
     width: 30%;              
     margin: 1%;            
-    background-color: white; 
+    background-color: antiquewhite; 
     padding: 15px;         
     border-radius: 12px;    
     color: black;
@@ -28,7 +28,7 @@ h1 {
     width: 64%;
     margin: 1%;
     vertical-align: top;
-    background-color: white;
+    background-color: antiquewhite;
     padding: 20px;
     border-radius: 12px;
     color: black;

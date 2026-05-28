@@ -1,0 +1,28 @@
+.navigation_bar{
+    justify-content: center;
+    margin-top: 0px;
+    background-color: #7B002C;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-bottom: 2rem; 
+    padding-top: 2rem;   
+}
+
+#logo_img{
+    display: flex;
+    max-width: 10%;
+    height: auto;
+    justify-self: center;
+
+}
+
+.navigation_button{
+    color: #ffff;
+    text-decoration: none;
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: auto;
+    margin-bottom: auto;
+}
