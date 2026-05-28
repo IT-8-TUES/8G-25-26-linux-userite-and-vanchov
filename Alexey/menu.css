@@ -1,6 +1,5 @@
 body {
-  margin: 0;
-  padding: 0;
+
 }
 
 .line {
@@ -10,14 +9,16 @@ body {
 }
 
 .menu {
-  background-color: #b62626;
+  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100rem;
   text-align: center;
-  width: 68rem;
+  width: 55rem;
+  border: 5rem solid #7B002C ;
+  outline: 0.6rem solid black;
 }
 
 .type{
@@ -29,21 +30,11 @@ body {
   margin-top: 5rem;
 }
 
-.after {
-    margin-left: 16rem;
-    margin-top: -2.2rem;
-    margin-bottom: 3rem;
-   
-}
-
 .dish{
   margin-bottom: 0.2rem;
 }
 
 .check{
-  margin-left: 81rem;
-    margin-top: -4.4rem;
-    margin-bottom: 3rem;
     font-weight:bolder;
     font-size: 1.5rem;
 }
@@ -54,15 +45,21 @@ body {
   justify-content: space-between;
   font-weight:bolder;
   margin-top: 1rem;
+  background-color: #C9A84C;
+  transition: background-color 0.3s;
+  cursor: pointer;  
 }
 
+.b:hover{
+  background-color: #A6862E;
+}
 .dd {
   display: flex;
   gap: 4rem;
   margin-bottom: 2rem;
   margin-top: -2rem;
-   
 }
+
 .title{
   margin-bottom: -2rem;
   margin-top: 3rem;
@@ -80,13 +77,40 @@ body {
   margin-bottom: -0.1rem;
 }
 
-.container {
-    background: #fff;
+.cont {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 1rem;
 }
 
-.sigma{
-  margin-left: -48rem;
+.sigma_all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14rem;
+}
+
+#submit{
+  width: 10rem;
+  height: 3rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #C9A84C;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  box-shadow: 0 0.35rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+#submit:hover{
+  background-color: #A6862E;
+}
+
+.cont_2{
+    margin: 0;
+  padding: 0;
+  background-color:  white;
+  display: flex;
+  justify-content: center;
 }

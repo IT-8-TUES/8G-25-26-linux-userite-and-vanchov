@@ -1,10 +1,10 @@
 body{
- background-color: #b62626;
+ background-color: #FAC8C8;
 }
 
 .main{
     margin-bottom: 5rem;
-    width: 100rem;
+    width: 140rem;
     height: 20rem;
     display: flex;
     background: white;
@@ -13,17 +13,13 @@ body{
     transition: background-color 0.3s;
     border-radius: 0.5rem;
     cursor: pointer;
-    background-color: #e0b0b0;
+    background-color: antiquewhite;
 ;
 }
 
 .img{
 width: 35rem;
 height: 20rem;
-}
-
-.text_s{
-
 }
 
 .title{
@@ -44,7 +40,7 @@ height: 20rem;
 }
 
 .main:hover{
-    background-color: #f2e0e0;
+    background-color: #D4BC8F;
     box-shadow: 0 0.35rem 0.8rem rgba(0, 0, 0, 0.2);
 }
 
