@@ -1,7 +1,14 @@
+body{
+    display: flex;
+    flex-direction: row ;
+}
+
 .carousel_box{
     position: relative;
     display: flex;
     flex-direction: column;
+    max-width: 50%;
+   
 }
 
 .prev{
@@ -12,13 +19,15 @@
     justify-self: end;
 }
 .carousel_slide img {
-    width: 25%;
+    display: flex;
+    width: 80%;
     height: auto;
+    justify-self: center;
 }
 
 .carousel_slide{
     display: none;
-}
+} 
 
 .prev, .next {
     cursor: pointer;
@@ -28,5 +37,14 @@
 }
 
 .buttons{
- margin-left: 14rem;
+    display: flex;
+    justify-content: space-evenly;
+}   
+
+.review_form{
+    display: flex;
+    max-width: 200%;
+    justify-content: right;
+    flex-direction: column;
+    margin-right: 10%;
 }

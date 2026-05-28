@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    background-color: #7B002C; 
+    margin-top: auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 0rem;
+
+}
+
+.reach_out{
+    display: flex;
+    margin-left: auto;
+    margin-right: 5rem;
+    color: #ffff;
+    font-weight: bold;
+}
+
+#map{
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: flex-start;
+    margin-left: 5rem;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 150%;
+}

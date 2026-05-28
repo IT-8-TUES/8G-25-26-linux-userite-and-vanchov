@@ -1,4 +1,4 @@
-/* CSS-a за header (за целия отбор) */
+/* CSS-a за header и footer(за целия отбор) */
 .footer{
     display: flex;
     background-color: #7B002C; 
@@ -69,9 +69,7 @@ body{
 
 #main-image{
     display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1%;
+    justify-self: center;
+    margin-bottom: 1rem;
     }
 
