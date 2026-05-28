@@ -1,3 +1,92 @@
 body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #FFEEEE;
+}
+
+.man{
+    width: 60rem;
+    height: 40rem;
     
 }
+.upper{
+    width: 60rem;
+    height: 6rem;
+    border: 0.4rem solid black;
+    margin: 0rem;
+    background-color: #E0E0E0;
+    margin-bottom: -0.3rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+#bob{
+    width: 16rem;
+    height: 5rem;
+    border: 0.2rem solid black;
+    border-radius: 1.2rem;
+    font-size: 3rem;
+    margin-right: 2rem;
+    transition: background-color 0.3s;
+    box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+#bob:hover {
+    background-color: grey;
+}
+.down{
+    width: 60rem;
+    height: 33.6rem;
+    border: 0.4rem solid black;
+    margin: 0rem;
+    background-color: white;
+}
+
+
+h1{
+    margin: 1.2rem;
+    font-size: 3rem;
+}
+
+.down{
+    font-size: 1.7rem;
+}
+
+.butt{
+    margin-bottom: 4.5rem;
+    margin-top: -0.5rem;
+    margin-left: 2rem;;
+    display: flex;
+}
+
+h2{
+    margin-left: 2rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.butt_p{
+    display: flex;
+    gap: 6rem;
+    margin-bottom: -2rem;
+}
+
+.butt_t{
+    display: flex;
+    gap: 2.2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.butt_n{
+    display: flex;
+    gap: 2.2rem;
+    margin-left: 2rem;
+}
+
