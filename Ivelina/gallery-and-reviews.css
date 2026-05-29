@@ -1,6 +1,8 @@
-body{
+#main{
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .carousel_box{
@@ -43,8 +45,35 @@ body{
 
 .review_form{
     display: flex;
-    max-width: 200%;
-    justify-content: right;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
-    margin-right: 10%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: 15rem;
+    background-color: #7B002C;
+    color: #ffff;
+    font-weight: bolder;
+    
+}
+
+#name_input{
+    min-width: 30%;
+}
+
+#review_input{
+    min-height: 30%;
+}
+
+input{
+    min-width: 150%;
+}
+
+#submit_button{
+    min-height: 5%;
+}
+
+body{
+    background-color: antiquewhite;
 }

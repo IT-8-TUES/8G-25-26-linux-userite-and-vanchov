@@ -2,9 +2,26 @@
     <head>  
         <title> Gallery & Reviews </title>
             <link rel="stylesheet" href="./gallery-and-reviews.css">    
+            <link rel="stylesheet" href="../obshti/header.css">
+             <link rel="stylesheet" href="../obshti/footer.css">
             <script src="carousel.js" defer></script>
     </head> 
     <body> 
+<nav>
+            <ul class="navigation_bar">
+            <a class="navigation_button" class="left_nav" href="../Vanchov/OurStaff.html"> Our Staff  </a> 
+            <a class="navigation_button" class="left_nav" href="../Alexander Simeonov Simeonov 8g nomer 2/index.html"> About Us </a>
+            <a class="navigation_button" class="left_nav" href="../Vanchov/JOBlistings.html">  Job Listings  </a>
+            <a class="navigation_button" class="left_nav" href="../Alexey/locations.html"> Locations </a>
+            <img id="logo_img" src="../media/logo.png" alt="logo">
+             <a class="navigation_button" class="left_nav" href="../Ivelina/homepage.html">  Main page  </a>
+            <a class="navigation_button" class="right_nav" href="../Ivelina/gallery-and-reviews.html"> Gallery & Reviews </a>
+            <a class="navigation_button" class="right_nav" href="../Alexey/menu_bez_but.html"> Menu </a>
+            <a class="navigation_button" class="right_nav" href="../Alexander Simeonov Simeonov 8g nomer 2/poruchki.html"> Delivery</a>
+            </ul>
+         </nav>
+
+    <div id="main">   
         <div class="carousel_box">
 
              <div id="image_carousel" class="carousel">  
@@ -32,12 +49,22 @@
 
        <form class="review_form">
         <label for="name"> Enter your name: </label>
-            <input type="text" name="name" required>
+            <input type="text" name="name" required id="name_input">
         <label for="text"> Enter your thoughts on us! </label>    
-            <input type="text" name="text">
+            <input type="text" name="text" id="review_input">
         
-            <input type="submit">
+            <input type="submit" id="submit_button">
        </form>
+    </div>
+        
        
+<footer class="footer">
+            <p id="left_reach"> Instagram: @visacho.restaurant <br/> Facebook: visacho.restaurant <br/> X: visacho.restaurant </p> 
+     
+             <li class="reach_out" class="footer">
+                 <p> Phone Number: +14252120098 <br/> Email: visacho_restaurant@gmail.com </p>
+             </li>      
+ </footer>
+
     </body>
 </html>

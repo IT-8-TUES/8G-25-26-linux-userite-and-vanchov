@@ -13,10 +13,10 @@
     margin-left: auto;
     margin-right: 5rem;
     color: #ffff;
-    font-weight: bold;
+    font-size: 150%;
 }
 
-#map{
+#left_reach{
     margin-top: auto;
     margin-bottom: auto;
     justify-content: flex-start;

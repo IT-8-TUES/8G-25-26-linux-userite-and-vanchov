@@ -6,7 +6,8 @@
     flex-direction:row;
     justify-content: space-evenly;
     padding-bottom: 2rem; 
-    padding-top: 2rem;   
+    padding-top: 2rem;
+    margin-bottom: auto;   
 }
 
 #logo_img{
@@ -14,7 +15,6 @@
     max-width: 10%;
     height: auto;
     justify-self: center;
-
 }
 
 .navigation_button{
