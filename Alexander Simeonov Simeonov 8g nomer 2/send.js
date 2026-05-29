@@ -5,70 +5,74 @@ let t_i1=0, t_i2=0, t_i3=0, t_i4=0, t_i5=0, t_i6=0, t_i7=0, t_i8=0;
 function incr_1() {
 t_1++;
 document.getElementById('out_1').textContent = t_1;
-check();}
+sum();}
 function decr_1() {
 t_1--;
 document.getElementById('out_1').textContent = t_1;
-check();}
+sum();}
 function incr_2() {
 t_2++;
 document.getElementById('out_2').textContent = t_2;
-check();}
+sum();}
 function decr_2() {
 t_2--;
 document.getElementById('out_2').textContent = t_2;
-check();}
+sum();}
 function incr_3() {
 t_3++;
 document.getElementById('out_3').textContent = t_3;
-check();}
+sum();}
 function decr_3() {
 t_3--;
 document.getElementById('out_3').textContent = t_3;
-check();}
+sum();}
 function incr_4() {
 t_4++;
 document.getElementById('out_4').textContent = t_4;
-check();}
+sum();}
 function decr_4() {
 t_4--;
 document.getElementById('out_4').textContent = t_4;
-check();}
+sum();}
 function incr_5() {
 t_5++;
 document.getElementById('out_5').textContent = t_5;
-check();}
+sum();}
 function decr_5() {
 t_5--;
 document.getElementById('out_5').textContent = t_5;
-check();}
+sum();}
 function incr_6() {
 t_6++;
 document.getElementById('out_6').textContent = t_6;
-check();}
+sum();}
 function decr_6() {
 t_6--;
 document.getElementById('out_6').textContent = t_6;
-check();}
+sum();}
 function incr_7() {
 t_7++;
 document.getElementById('out_7').textContent = t_7;
-check();}
+sum();}
 function decr_7() {
 t_7--;
 document.getElementById('out_7').textContent = t_7;
-check();}
+sum();}
 function incr_8() {
 t_8++;
 document.getElementById('out_8').textContent = t_8;
-check();}
+sum();}
 function decr_8() {
 t_8--;
 document.getElementById('out_8').textContent = t_8;
-check();}
+sum();}
 function sum() {
 time=t_1*t_i1+t_2*t_i2+t_3*t_i3+t_4*t_i4+t_5*t_i5+t_6*t_i6+t_7*t_i7+t_8*t_i8;
 document.getElementById('bill').textContent = time;}
 function gosmth2(){
 window.location.href = "menu.html";
 time+=deliver;}
+function submit(){
+    alert("Order submitted successfully! Estimated dlivery time: "+time+" minutes.");
+    window.location.href = "homepage.html";
+}

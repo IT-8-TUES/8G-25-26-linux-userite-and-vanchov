@@ -1,9 +1,9 @@
-body{background-color: red;}
-div{background-color: beige ;
-margin-top: 50px;
-margin-right: 50px;
-margin-left: 50px;
-margin-bottom: 50px;
+body{background-color: #7B002C ;}
+div{background-color: antiquewhite;
+margin-top: 40px;
+margin-right: 40px;
+margin-left: 40px;
+margin-bottom: 40px;
 text-align: center;}
 h1{
     font-family: "Lora", serif;
@@ -31,7 +31,7 @@ p{  font-family: "Lora", serif;
       font-size: 30px;
       text-align: center 
 }
-form{font-size: 55px;
+form{font-size: 50px;
 text-align: center;}
 input{font-size: 25px;
 height: 80px;}
