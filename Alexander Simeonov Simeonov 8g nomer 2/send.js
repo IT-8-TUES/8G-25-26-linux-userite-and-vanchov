@@ -1,5 +1,5 @@
 function gosmth(){
-    window.location.href = "menu.html";}
+    window.location.href = "../Alexey/menu.html";}
 let t_1=5, t_2=4, t_3=6, t_4=4, t_5=12, t_6=15, t_7=12, t_8=8,deliver=15, time=0;
 let t_i1=0, t_i2=0, t_i3=0, t_i4=0, t_i5=0, t_i6=0, t_i7=0, t_i8=0;
 function incr_1() {
@@ -67,12 +67,11 @@ t_8--;
 document.getElementById('out_8').textContent = t_8;
 sum();}
 function sum() {
-time=t_1*t_i1+t_2*t_i2+t_3*t_i3+t_4*t_i4+t_5*t_i5+t_6*t_i6+t_7*t_i7+t_8*t_i8;
-document.getElementById('bill').textContent = time;}
+time=t_1*t_i1+t_2*t_i2+t_3*t_i3+t_4*t_i4+t_5*t_i5+t_6*t_i6+t_7*t_i7+t_8*t_i8;}
 function gosmth2(){
-window.location.href = "menu.html";
+window.location.href = "../Alexey/menu.html";
 time+=deliver;}
 function submit(){
-    alert("Order submitted successfully! Estimated dlivery time: "+time+" minutes.");
+    alert("Order submitted successfully! Estimated delivery time: "+time+" minutes.");
     window.location.href = "homepage.html";
 }
