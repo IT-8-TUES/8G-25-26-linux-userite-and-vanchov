@@ -2,67 +2,67 @@ function gosmth(){
     window.location.href = "../Alexey/menu.html";}
 let t_1=5, t_2=4, t_3=6, t_4=4, t_5=12, t_6=15, t_7=12, t_8=8,deliver=15, time=0;
 let t_i1=0, t_i2=0, t_i3=0, t_i4=0, t_i5=0, t_i6=0, t_i7=0, t_i8=0;
-function incr_1() {
+function add_1() {
 t_1++;
 document.getElementById('out_1').textContent = t_1;
 sum();}
-function decr_1() {
+function sub_1() {
 t_1--;
 document.getElementById('out_1').textContent = t_1;
 sum();}
-function incr_2() {
+function add_2() {
 t_2++;
 document.getElementById('out_2').textContent = t_2;
 sum();}
-function decr_2() {
+function sub_2() {
 t_2--;
 document.getElementById('out_2').textContent = t_2;
 sum();}
-function incr_3() {
+function add_3() {
 t_3++;
 document.getElementById('out_3').textContent = t_3;
 sum();}
-function decr_3() {
+function sub_3() {
 t_3--;
 document.getElementById('out_3').textContent = t_3;
 sum();}
-function incr_4() {
+function add_4() {
 t_4++;
 document.getElementById('out_4').textContent = t_4;
 sum();}
-function decr_4() {
+function sub_4() {
 t_4--;
 document.getElementById('out_4').textContent = t_4;
 sum();}
-function incr_5() {
+function add_5() {
 t_5++;
 document.getElementById('out_5').textContent = t_5;
 sum();}
-function decr_5() {
+function sub_5() {
 t_5--;
 document.getElementById('out_5').textContent = t_5;
 sum();}
-function incr_6() {
+function add_6() {
 t_6++;
 document.getElementById('out_6').textContent = t_6;
 sum();}
-function decr_6() {
+function sub_6() {
 t_6--;
 document.getElementById('out_6').textContent = t_6;
 sum();}
-function incr_7() {
+function add_7() {
 t_7++;
 document.getElementById('out_7').textContent = t_7;
 sum();}
-function decr_7() {
+function sub_7() {
 t_7--;
 document.getElementById('out_7').textContent = t_7;
 sum();}
-function incr_8() {
+function add_8() {
 t_8++;
 document.getElementById('out_8').textContent = t_8;
 sum();}
-function decr_8() {
+function sub_8() {
 t_8--;
 document.getElementById('out_8').textContent = t_8;
 sum();}
