@@ -66,12 +66,9 @@ function sub_8() {
 t_8--;
 document.getElementById('out_8').textContent = t_8;
 sum();}
-function sum() {
-time=t_1*t_i1+t_2*t_i2+t_3*t_i3+t_4*t_i4+t_5*t_i5+t_6*t_i6+t_7*t_i7+t_8*t_i8;}
+
 function gosmth2(){
 window.location.href = "../Alexey/menu.html";
-time+=deliver;}
-function submit(){
-    alert("Order submitted successfully! Estimated delivery time: "+time+" minutes.");
-    window.location.href = "homepage.html";
-}
+time+=deliver;
+alert("Order submitted successfully! Estimated delivery time: "+time+" minutes.");
+time=t_1*t_i1+t_2*t_i2+t_3*t_i3+t_4*t_i4+t_5*t_i5+t_6*t_i6+t_7*t_i7+t_8*t_i8;}
