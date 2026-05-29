@@ -68,7 +68,7 @@ body {
 .box{
   width: 2rem;
   background-color: white;
-  border: 0,3rem solid;
+  border: 0.08rem solid;
   height: 0.9rem;
 }
 
