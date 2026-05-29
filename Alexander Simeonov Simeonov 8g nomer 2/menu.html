@@ -5,6 +5,8 @@
         <link rel="stylesheet" type="text/css" href="menu.css">
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
         <script src="menu.js"></script>
+        <link href="/obshti/header.css" rel="stylesheet" type="text/css">
+        <link href="/obshti/footer.css" rel="stylesheet" type="text/css">
         <style>
 h1,h2,h3{
   font-family: "Lora", serif;
@@ -12,12 +14,13 @@ h1,h2,h3{
 </style>
     </head>
     <body>
+          <div class="cont_2">
           <div class="container">
                <div class="menu">
             <h1 class="title">Visacho menu</h1>
 
           <h2 class="type_1">Salad<h2>
-          <h3 class="dish">Insalata di Burrata e Pomodorini Confit</h3>     
+          <h3 class="dish">Insalata di Burrata e Pomodorini Confit - 30.00$</h3>     
           <p class="ingr_1">Creamy burrata is served with slow-roasted cherry tomatoes,<br>
                fresh basil leaves, a drizzle of extra virgin olive oil and aged balsamic glaze,<br>
                finished with sea salt flakes, cracked black pepper, and toasted pine nuts, accompanied by grilled sourdough crisps.</p>
@@ -28,7 +31,7 @@ h1,h2,h3{
                <button class="b" onclick="add_1()">+</button>
                <button class="b" onclick="sub_1()">-</button>
           </div>
-          <h3 class="dish">Insalata di Rucola con Parmigiano e Prosciutto</h3>
+          <h3 class="dish">Insalata di Rucola con Parmigiano e Prosciutto - 32.00$</h3>
           <p class="ingr">Fresh arugula is tossed with extra virgin olive oil and lemon juice,<br>
                  topped with thin slices of Prosciutto di Parma and shavings of Parmigiano Reggiano,<br>
                   finished with cracked black pepper, sea salt flakes, roasted walnuts, and a drizzle of aged balsamic vinegar.</p>
@@ -44,7 +47,7 @@ h1,h2,h3{
                <div class="line"></div>
 
           <h2 class="type">Starters</h2>
-          <h3 class="dish">Carpaccio di Gamberi Rossi</h3>
+          <h3 class="dish">Carpaccio di Gamberi Rossi - 27.00$</h3>
           <p class="ingr_1">Hand-sliced red prawns are delicately dressed with Sicilian extra virgin olive oil,<br>
                  fresh lime zest, sea salt flakes, and pink peppercorns, served with microgreens and a touch of lemon foam.</p>
                <div class="box">
@@ -54,7 +57,7 @@ h1,h2,h3{
                <button class="b" onclick="add_3()">+</button>
                <button class="b" onclick="sub_3()">-</button>
           </div>
-          <h3 class="dish">Tartar di Tonno con Avocado</h3>
+          <h3 class="dish">Tartar di Tonno con Avocado - 42.00$</h3>
           <p class="ingr">Fresh bluefin tuna tartare is layered with creamy avocado, extra virgin olive oil,<br>
                  citrus reduction, chives, and crunchy fennel, finished with Maldon sea salt and a hint of chili oil.</p>
                <div class="box">
@@ -67,7 +70,7 @@ h1,h2,h3{
           <div class="line"></div>
 
           <h2 class="type">Main Courses</h2>
-          <h3 class="dish">Tagliatelle al Tartufo Nero</h3>
+          <h3 class="dish">Tagliatelle al Tartufo Nero - 35.00$</h3>
           <p class="ingr_1">Fresh handmade tagliatelle are tossed in a silky butter emulsion<br>
                  with black truffle shavings, Parmigiano Reggiano, and a touch of aged white wine reduction.</p>
               <div class="box">
@@ -77,7 +80,7 @@ h1,h2,h3{
                <button class="b" onclick="add_5()">+</button>
                <button class="b" onclick="sub_5()">-</button>
           </div>
-          <h3 class="dish">Filetto di Manzo al Barolo</h3>
+          <h3 class="dish">Filetto di Manzo al Barolo - 47.00$</h3>
           <p class="ingr">Prime beef fillet is pan-seared and slow-finished in a<br>
                  rich Barolo wine reduction, served with truffle mashed potatoes, roasted baby vegetables, and rosemary jus.</p>
                  <div class="box">
@@ -90,7 +93,7 @@ h1,h2,h3{
           <div class="line"></div>
 
           <h2 class="type">Desserts</h2>
-          <h3 class="dish">Fondente al Cioccolato con Cuore Caldo</h3>
+          <h3 class="dish">Fondente al Cioccolato con Cuore Caldo - 27.00$</h3>
           <p class="ingr_1">Warm dark chocolate fondant with a molten center,<br>
                  served with vanilla bean gelato, raspberry coulis, and cocoa crumble.</p>
                <div class="box">
@@ -100,7 +103,7 @@ h1,h2,h3{
                <button class="b" onclick="add_7()">+</button>
                <button class="b" onclick="sub_7()">-</button>
           </div>
-          <h3 class="dish">Torta al Limone di Amalfi</h3>
+          <h3 class="dish">Torta al Limone di Amalfi - 28.00$</h3>
           <p class="ingr">A delicate Amalfi lemon tart with buttery pastry, lemon cream filling,<br>
                  candied zest, and a light dusting of powdered sugar, served with basil-infused mascarpone cream.</p>
                <div class="box">
@@ -111,11 +114,16 @@ h1,h2,h3{
                <button class="b" onclick="sub_8()">-</button>
           </div>
           <div class="line"></div>
-          <div class="sigma">
-               <p class="after">Perfection since 1984 </p>
-               <p class="check">BILL: <span id="bill">0</span>.00$</p>
+          <p class="after">Perfection since 1984 </p>
+          <div class="sigma_all">
+               <div class="sigma_1">
+                    <p class="check">BILL: <span id="bill">0</span>.00$</p>
+               </div>
+               <div class="sigma_2">
+                    <button id="submit">Submit</button>
+               </div>
           </div>
           </div>
-<script src="send.js"></script>
+          </div>
      </body>
 </html>
